@@ -33,6 +33,3 @@ https://cryental.dev/api/covid-status/locations
 // Get Specific Country's Counter
 https://cryental.dev/api/covid-status/locations?country=us
 ```
-
-
-You can use this service without any limitation. 
