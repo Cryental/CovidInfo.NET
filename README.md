@@ -36,5 +36,3 @@ https://cryental.dev/api/covid-status/locations?country=us
 
 
 You can use this service without any limitation. 
-
-In case, if your requests are too many and it's blocking other users' requests, your IP can be blocked for 1 hour.
