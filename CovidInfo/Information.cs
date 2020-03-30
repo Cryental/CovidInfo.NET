@@ -9,7 +9,7 @@ namespace Covid
     {
         public Latest GetCounters()
         {
-            var url = "https://covid19.cryental.dev/v1/latest";
+            var url = "https://cryental.dev/api/covid-status/latest";
 
             var webclient = new WebClient();
             var result = webclient.DownloadString(url);
@@ -21,7 +21,7 @@ namespace Covid
 
         public List<Location> GetAllLocations()
         {
-            var url = "https://covid19.cryental.dev/v1/locations";
+            var url = "https://cryental.dev/api/covid-status/locations";
 
             var webclient = new WebClient();
             var result = webclient.DownloadString(url);
@@ -33,7 +33,7 @@ namespace Covid
 
         public List<Location> GetByLocation(Countries country)
         {
-            var url = "https://covid19.cryental.dev/v1/locations?country_code=" + country;
+            var url = "https://cryental.dev/api/covid-status/locations?country=" + country;
 
             var webclient = new WebClient();
             var result = webclient.DownloadString(url);
