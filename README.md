@@ -21,6 +21,20 @@ var result = info.GetAllLocations();
 var result = info.GetByLocation(Countries.US);
 ```
 
+If you want to use this with web service, you can query:
+
+```
+// Get Latest Counters
+https://cryental.dev/api/covid-status/latest
+
+// Get All Countries' Counters
+https://cryental.dev/api/covid-status/locations
+
+// Get Specific Country's Counter
+https://cryental.dev/api/covid-status/locations?country=us
+```
+
+
 You can use this service without any limitation. 
 
 In case, if your requests are too many and it's blocking other users' requests, your IP can be blocked for 1 hour.
