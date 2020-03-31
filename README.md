@@ -1,6 +1,10 @@
 # CovidInfo.NET
 Get Information about COVID-19 using C#
 
+https://cryental.dev/services/covid-status/
+
+
+
 It provides up-to-date data about Coronavirus outbreak using the online database service, includes numbers about confirmed cases, deaths and recovered.
 
 Database provided by https://github.com/CSSEGISandData/COVID-19. 
