@@ -9,7 +9,7 @@ It provides up-to-date data about Coronavirus outbreak using the online database
 
 Database provided by https://github.com/CSSEGISandData/COVID-19. 
 
-Online service API by Cryental.
+Online service API by RekonChan.
 
 ## Usages
 ```
