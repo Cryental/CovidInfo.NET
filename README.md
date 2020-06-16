@@ -11,9 +11,19 @@ Database provided by https://github.com/CSSEGISandData/COVID-19.
 
 Online service API by Cryental.
 
+If too many requests are made your rate will be limited. This is to avoid DDoS attacks or loss of resources. (Current: 5 req / sec, IP based)
+You can bypass it by registering an account and use your own access key.
+
+Use access_key parameter to pass your own access key.
+
 ## Usages
 ```
+// No Access Key
 var info = new Covid.Information();
+
+// With Access Key
+var info = new Covid.Information("d71faf7c-2dc4-4405-9381-548b35871b2e");
+
 
 // Get Latest Counters
 var result = info.GetCounters();
