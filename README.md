@@ -39,11 +39,11 @@ If you want to use this with web service, you can query:
 
 ```
 // Get Latest Counters
-https://cryental.dev/api/covid-status/latest
+https://api.cryental.dev/covid-status/latest
 
 // Get All Countries' Counters
-https://cryental.dev/api/covid-status/locations
+https://api.cryental.dev/covid-status/locations
 
 // Get Specific Country's Counter
-https://cryental.dev/api/covid-status/locations?country=us
+https://api.cryental.dev/covid-status/locations?country=us
 ```
