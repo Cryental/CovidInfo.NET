@@ -20,7 +20,7 @@ namespace Covid
 
         public Latest GetCounters()
         {
-            var url = "https://cryental.dev/api/covid-status/latest";
+            var url = "https://api.cryental.dev/covid-status/latest";
 
             if (string.IsNullOrEmpty(_accessKey))
             {
@@ -44,7 +44,7 @@ namespace Covid
 
         public List<Location> GetAllLocations()
         {
-            var url = "https://cryental.dev/api/covid-status/locations";
+            var url = "https://api.cryental.dev/covid-status/locations";
 
             if (string.IsNullOrEmpty(_accessKey))
             {
@@ -68,7 +68,7 @@ namespace Covid
 
         public List<Location> GetByLocation(Countries country)
         {
-            var url = "https://cryental.dev/api/covid-status/locations?country=" + country;
+            var url = "https://api.cryental.dev/covid-status/locations?country=" + country;
 
             if (string.IsNullOrEmpty(_accessKey))
             {
